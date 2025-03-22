@@ -19,7 +19,8 @@ services:
       - key: N8N_HOST
         value: alastor-n8n.onrender.com
       - key: N8N_PORT
-        value: 5678
+        value: "5678"
       - key: N8N_EDITOR_BASE_URL
         value: https://alastor-n8n.onrender.com
-      - key
+      - key: N8N_PUBLIC_API_DISABLED
+        value: "false"
